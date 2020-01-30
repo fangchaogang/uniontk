@@ -1,14 +1,6 @@
 # 介绍
 
-淘宝联盟、京东联盟、多多进宝、唯品客、苏宁推客、蘑菇街SDK封装，该项目长期维护，提交PR后加我微信领红包。
-
-# 联系方式
-微信：bugfixed
-
-# 接口文档
-这是基于该扩展写的一个demo
-
-https://www.yuque.com/books/share/9b90cef4-4774-4f1b-bbf1-38bdcf317f5c?#（密码：hz4a）
+淘宝联盟、京东联盟、多多进宝、唯品客、苏宁推客、蘑菇街SDK封装，该项目长期维护。
 
 # TODO
 蘑菇街联盟SDK待适配，因为没有测试号
@@ -16,10 +8,9 @@ https://www.yuque.com/books/share/9b90cef4-4774-4f1b-bbf1-38bdcf317f5c?#（密�
 `苏宁、蘑菇街SDK已经适配，接口较多，没有全部测试，如果发现问题请提交ISSUE或者PR，我会在第一时间修复`
 
 # 安装
-1、安装扩展包，该扩展包只支持laravel
 
 ```bash
-composer require niugengyun/easytbk
+composer require fangchaogang/uniontk
 ```
 
 # 初始化SDK
@@ -29,8 +20,8 @@ composer require niugengyun/easytbk
 
 ```php
 <?php
-use NiuGengYun\EasyTBK\Factory;
-use NiuGengYun\EasyTBK\TaoBao\Request\TbkItemInfoGetRequest;
+use fangchaogang\uniontk\Factory;
+use fangchaogang\uniontk\taobao\request\TbkItemInfoGetRequest;
 
 $client = Factory::taobao ();
 $req = new TbkItemInfoGetRequest;
@@ -41,8 +32,8 @@ return $client->execute ($req);
 2、京东SDK初始化
 ```php
 <?php
-use NiuGengYun\EasyTBK\Factory;
-use NiuGengYun\EasyTBK\JingDong\Request\JdUnionGoodsPromotiongoodsinfoQueryRequest;
+use fangchaogang\uniontk\Factory;
+use fangchaogang\uniontk\jingdong\request\JdUnionGoodsPromotiongoodsinfoQueryRequest;
 
 $jd = Factory::jingdong();
 $req = new JdUnionGoodsPromotiongoodsinfoQueryRequest();
@@ -53,8 +44,8 @@ return $jd->execute($req);
 3、拼多多SDK初始化
 ```php
 <?php
-use NiuGengYun\EasyTBK\Factory;
-use NiuGengYun\EasyTBK\PinDuoDuo\Request\DdkGoodsDetailRequest;
+use fangchaogang\uniontk\Factory;
+use fangchaogang\uniontk\pinduoduo\request\DdkGoodsDetailRequest;
 
 $pdd = Factory::pinduoduo();
 $req = new DdkGoodsDetailRequest();
@@ -65,9 +56,9 @@ return  $pdd->execute($req);
 4、唯品会SDK初始化
 ```php
 <?php
-use NiuGengYun\EasyTBK\Factory;
-use NiuGengYun\EasyTBK\Vip\Request\PidGenRequest;
-use NiuGengYun\EasyTBK\Vip\Request\UnionPidServiceClient;
+use fangchaogang\uniontk\Factory;
+use fangchaogang\uniontk\vip\request\PidGenRequest;
+use fangchaogang\uniontk\vip\request\UnionPidServiceClient;
 
 // 唯品会官方的sdk写的比较垃圾，用法和其他平台稍微不一样
 $service= UnionPidServiceClient::getService();
@@ -83,8 +74,8 @@ dd($service->genPidWithOauth($pidGenRequest1));
 5、苏宁连联盟SDK初始化
 ```php
 <?php
-use NiuGengYun\EasyTBK\Factory;
-use NiuGengYun\EasyTBK\SuNing\Request\Netalliance\CouponproductQueryRequest;
+use fangchaogang\uniontk\Factory;
+use fangchaogang\uniontk\suning\request\Netalliance\CouponproductQueryRequest;
 
 $c = Factory::suning();
 $req = new CouponproductQueryRequest();

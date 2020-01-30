@@ -2,12 +2,11 @@
 
 namespace fangchaogang\uniontk;
 
-use NiuGengYun\EasyTBK\TaoBao\Application as TaoBao;
-use NiuGengYun\EasyTBK\PinDuoDuo\Application as PinDuoDuo;
-use NiuGengYun\EasyTBK\JingDong\Application as JingDong;
-use NiuGengYun\EasyTBK\Vip\Application as Vip;
-use NiuGengYun\EasyTBK\SuNing\Application as SuNing;
-use NiuGengYun\EasyTBK\Vip\Osp\Context\InvocationContext;
+use fangchaogang\uniontk\taobao\Application as TaoBao;
+use fangchaogang\uniontk\pinduoduo\Application as PinDuoDuo;
+use fangchaogang\uniontk\jingdong\Application as JingDong;
+use fangchaogang\uniontk\suning\Application as SuNing;
+use fangchaogang\uniontk\vip\Osp\Context\InvocationContext;
 
 /**
  * Class Factory.
@@ -171,5 +170,15 @@ class Factory
         }
     }
 
+}
 
+function array_only($array, $fileds)
+{
+    $out = [];
+    foreach ($array as $key => $val) {
+        if (in_array($key, $fileds)) {
+            $out[$key] = $val;
+        }
+    }
+    return $out;
 }
