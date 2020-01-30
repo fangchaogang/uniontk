@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao\Domain;
+namespace fangchaogang\uniontk\taobao\domain;
 
 /**
  * 自定义消息内容

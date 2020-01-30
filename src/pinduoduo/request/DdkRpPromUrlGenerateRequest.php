@@ -1,16 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: niugengyun
- * Date: 2018/11/20
- * Time: 下午6:45
- */
-namespace NiuGengYun\EasyTBK\PinDuoDuo\Request;
+namespace fangchaogang\uniontk\pinduoduo\request;
 
-use NiuGengYun\EasyTBK\PinDuoDuo\RequestInterface;
+use fangchaogang\uniontk\pinduoduo\RequestInterface;
 
 
-class DdkRpPromUrlGenerateRequest  implements RequestInterface
+class DdkRpPromUrlGenerateRequest implements RequestInterface
 {
     /**
      * 生成红包推广链接接口

@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\PinDuoDuo;
+namespace fangchaogang\uniontk\pinduoduo;
 
 
 class Application
@@ -27,8 +27,6 @@ class Application
 
     /**
      * 生成加密签名
-     * @Author: niugengyun
-     * @Date: 2018/4/26
      * @param $params
      * @return string
      */
@@ -45,10 +43,8 @@ class Application
 
     /**
      * post请求
-     * @Author: niugengyun
-     * @Date: 2018/4/26
      * @param $url
-     * @return mixed
+     * @return bool|string
      */
     public function curl_post($url)
     {
@@ -86,9 +82,8 @@ class Application
 
     /**
      * 执行
-     * @Author: niugengyun
-     * @Date: 2018/4/26
      * @param $request
+     * @param string $access_token
      * @return mixed
      */
     public function execute($request, $access_token = '')
@@ -123,9 +118,7 @@ class Application
 
     /**
      * 单例获取当前对象
-     * @Author: niugengyun
-     * @Date: 2018/4/26
-     * @return static
+     * @return Application
      */
     public static function getInstance()
     {
@@ -137,8 +130,6 @@ class Application
 
     /**
      * 魔术方法 调用不存在的静态方法时触发
-     * @Author: niugengyun
-     * @Date: 2018/4/26
      * @param $name
      * @param $arguments
      * @return mixed

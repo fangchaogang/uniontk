@@ -1,8 +1,8 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao\Request;
+namespace fangchaogang\uniontk\taobao\request;
 
-use NiuGengYun\EasyTBK\TaoBao\RequestCheckUtil;
+use fangchaogang\uniontk\taobao\RequestCheckUtil;
 /**
  * TOP API: taobao.httpdns.get request
  *

@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK;
+namespace fangchaogang\uniontk;
 
 use NiuGengYun\EasyTBK\TaoBao\Application as TaoBao;
 use NiuGengYun\EasyTBK\PinDuoDuo\Application as PinDuoDuo;

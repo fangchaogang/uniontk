@@ -19,7 +19,7 @@
  *
  */
 
-namespace NiuGengYun\EasyTBK\Vip\Osp\StringFunc;
+namespace fangchaogang\uniontk\vip\Osp\StringFunc;
 
 
 class StringFuncFactory {

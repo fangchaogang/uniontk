@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao\Domain;
+namespace fangchaogang\uniontk\taobao\domain;
 
 /**
  * openim消息结构体

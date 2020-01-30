@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao\Domain;
+namespace fangchaogang\uniontk\taobao\domain;
 
 /**
  * KFC 关键词过滤匹配结果

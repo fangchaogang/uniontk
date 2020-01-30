@@ -20,7 +20,7 @@
  * @package thrift.transport
  */
 
-namespace NiuGengYun\EasyTBK\Vip\Osp\Buffer;
+namespace fangchaogang\uniontk\vip\Osp\Buffer;
 
 use NiuGengYun\EasyTBK\Vip\Osp\Transport\Transport;
 use NiuGengYun\EasyTBK\Vip\Osp\StringFunc\StringFuncFactory;

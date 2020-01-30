@@ -4,7 +4,7 @@
    Manual: http://scripts.incutio.com/httpclient/
 */
 
-namespace NiuGengYun\EasyTBK\Vip\Osp\Http;
+namespace fangchaogang\uniontk\vip\Osp\Http;
 
 class HttpClient {
     // Request vars

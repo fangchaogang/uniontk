@@ -23,7 +23,7 @@
  * @package thrift.classloader
  */
 
-namespace NiuGengYun\EasyTBK\Vip\Osp\ClassLoader;
+namespace fangchaogang\uniontk\vip\Osp\ClassLoader;
 
 class ClassLoader
 {

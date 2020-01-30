@@ -8,7 +8,7 @@
 *
 */
 
-namespace NiuGengYun\EasyTBK\Vip\Request;
+namespace fangchaogang\uniontk\vip\requestt;
 
 class UnionGoodsServiceHelper extends _UnionGoodsServiceClient{
 

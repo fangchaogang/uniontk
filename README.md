@@ -22,13 +22,6 @@ https://www.yuque.com/books/share/9b90cef4-4774-4f1b-bbf1-38bdcf317f5c?#（密�
 composer require niugengyun/easytbk
 ```
 
-
-2、执行下面的命令，然后修改config/easytbk.php
-
-```bash
-php artisan vendor:publish --provider "NiuGengYun\EasyTBK\ServiceProvider"
-```
-
 # 初始化SDK
 每个平台SDK的具体调用方法参考各平台的文档
 

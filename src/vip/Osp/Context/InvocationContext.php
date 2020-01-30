@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\Vip\Osp\Context;
+namespace fangchaogang\uniontk\vip\Osp\Context;
 
 /**
  * 调用上下文

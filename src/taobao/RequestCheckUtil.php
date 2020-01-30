@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao;
+namespace fangchaogang\uniontk\taobao;
 
 /**
  * API入参静态检查类

@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao\Domain;
+namespace Nfangchaogang\uniontk\taobao\domain;
 
 /**
  * results

@@ -1,7 +1,7 @@
 <?php
-namespace NiuGengYun\EasyTBK\TaoBao\Request;
+namespace fangchaogang\uniontk\taobao\request;
 
-use NiuGengYun\EasyTBK\TaoBao\RequestCheckUtil;
+use fangchaogang\uniontk\taobao\RequestCheckUtil;
 /**
  * TOP API: taobao.tbk.sc.tpwd.convert request
  * 

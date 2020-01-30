@@ -8,7 +8,7 @@
 *
 */
 
-namespace NiuGengYun\EasyTBK\Vip\Request;
+namespace fangchaogang\uniontk\vip\request;
 
 class OrderQueryModel {
 

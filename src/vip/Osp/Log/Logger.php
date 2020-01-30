@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\Vip\Osp\Log;
+namespace fangchaogang\uniontk\vip\Osp\Log;
 
 /**
  * 日志处理类
@@ -23,7 +23,7 @@ class Logger {
 	private static $LOG_LEVEL_ERROR = 3;
 
 	private static function init(){
-		Logger::$LOG_PATH =  \NiuGengYun\EasyTBK\Vip\Osp\Util\PathUtil::getRootPath()."/osp-log/";
+		Logger::$LOG_PATH =  \fangchaogang\uniontk\vip\Osp\Util\PathUtil::getRootPath()."/osp-log/";
 
 		if(!file_exists(Logger::$LOG_PATH)){
 			mkdir(Logger::$LOG_PATH);

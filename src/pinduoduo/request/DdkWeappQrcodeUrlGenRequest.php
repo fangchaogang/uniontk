@@ -1,13 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: niugengyun
- * Date: 2018/11/19
- * Time: 下午3:03
- */
-namespace NiuGengYun\EasyTBK\PinDuoDuo\Request;
 
-use NiuGengYun\EasyTBK\PinDuoDuo\RequestInterface;
+namespace fangchaogang\uniontk\pinduoduo\request;
+
+use fangchaogang\uniontk\pinduoduo\RequestInterface;
 
 
 class DdkWeappQrcodeUrlGenRequest implements RequestInterface

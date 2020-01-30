@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao;
+namespace fangchaogang\uniontk\taobao;
 
 /**
  * 返回的默认类

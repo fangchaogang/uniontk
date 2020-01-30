@@ -1,14 +1,14 @@
 {
-    "name": "niugengyun/easytbk",
+    "name": "fangchaogang/uniontk",
     "type": "library",
-    "description": "淘客六合一SDK，支持淘宝联盟、京东联盟、多多进宝、唯品会、苏宁、蘑菇街. 微信:bugfixed",
+    "description": "联盟淘客SDK",
     "keywords": ["淘宝客","淘宝客SDK"],
-    "homepage": "https://github.com/niugengyun/easytbk",
+    "homepage": "https://github.com/fangchaogang/uniontk",
     "license": "MIT",
     "authors": [
         {
-            "name": "niugengyun",
-            "email": "515343908@qq.com"
+            "name": "fangchaogang",
+            "email": "fcg_anji520@163.com"
         }
     ],
     "require": {
@@ -19,14 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "NiuGengYun\\EasyTBK\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "NiuGengYun\\EasyTBK\\ServiceProvider"
-            ]
+            "fangchaogang\\uniontk\\": "src/"
         }
     }
 }

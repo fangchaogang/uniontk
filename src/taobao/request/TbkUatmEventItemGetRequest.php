@@ -1,8 +1,8 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao\Request;
+namespace fangchaogang\uniontk\taobao\requestt;
 
-use NiuGengYun\EasyTBK\TaoBao\RequestCheckUtil;
+use fangchaogang\uniontk\taobao\RequestCheckUtil;
 /**
  * TOP API: taobao.tbk.uatm.event.item.get request
  *

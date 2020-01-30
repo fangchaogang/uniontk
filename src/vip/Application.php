@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\Vip;
+namespace fangchaogang\uniontk\vip;
 
 
 class Application

@@ -1,8 +1,8 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\PinDuoDuo\Request;
+namespace fangchaogang\uniontk\pinduoduo\request;
 
-use NiuGengYun\EasyTBK\PinDuoDuo\RequestInterface;
+use fangchaogang\uniontk\pinduoduo\RequestInterface;
 
 
 class DdkGoodsSearchRequest implements RequestInterface

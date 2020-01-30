@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\Vip\Osp\Exception;
+namespace fangchaogang\uniontk\vip\Osp\Exception;
 
 /**
  * OSP异常信息封装类

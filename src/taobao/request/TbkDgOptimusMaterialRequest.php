@@ -6,9 +6,9 @@
  * @since 1.0, 2019.10.31
  */
 
-namespace NiuGengYun\EasyTBK\TaoBao\Request;
+namespace fangchaogang\uniontk\taobao\request;
 
-use NiuGengYun\EasyTBK\TaoBao\RequestCheckUtil;
+use fangchaogang\uniontk\taobao\RequestCheckUtil;
 
 class TbkDgOptimusMaterialRequest
 {

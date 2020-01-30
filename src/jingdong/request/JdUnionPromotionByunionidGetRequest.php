@@ -1,13 +1,13 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\JingDong\Request;
+namespace fangchaogang\uniontk\jingdong\request;
 
-use NiuGengYun\EasyTBK\JingDong\RequestInterface;
+use fangchaogang\uniontk\jingdong\RequestInterface;
 
 
 /**
  * Class JdUnionPromotionByunionidGetRequest
- * @package NiuGengYun\EasyTBK\JingDong\Request
+ * @package fangchaogang\uniontk\jingdong\request
  */
 class JdUnionPromotionByunionidGetRequest implements RequestInterface
 {

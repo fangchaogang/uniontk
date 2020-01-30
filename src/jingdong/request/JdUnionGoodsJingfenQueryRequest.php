@@ -1,13 +1,13 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\JingDong\Request;
+namespace fangchaogang\uniontk\jingdong\request;
 
-use NiuGengYun\EasyTBK\JingDong\RequestInterface;
+use fangchaogang\uniontk\jingdong\RequestInterface;
 
 
 /**
  * Class JdUnionGoodsJingfenQueryRequest
- * @package NiuGengYun\EasyTBK\JingDong\Request
+ * @package fangchaogang\uniontk\jingdong\request
  */
 class JdUnionGoodsJingfenQueryRequest implements RequestInterface
 {
@@ -48,6 +48,14 @@ class JdUnionGoodsJingfenQueryRequest implements RequestInterface
      * @var
      */
     private $pageIndex;
+
+    /**
+     * @return string
+     */
+    public function getMethod()
+    {
+        return $this->method;
+    }
 
     /**
      * @return mixed

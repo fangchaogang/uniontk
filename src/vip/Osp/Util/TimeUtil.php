@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\Vip\Osp\Util;
+namespace fangchaogang\uniontk\vip\Osp\Util;
 
 class TimeUtil {
 

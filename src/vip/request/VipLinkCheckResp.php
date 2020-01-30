@@ -8,7 +8,8 @@
 *
 */
 
-namespace NiuGengYun\EasyTBK\Vip\Request;
+namespace fangchaogang\uniontk\vip\request;
+use fangchaogang\uniontk\vip\Osp\Exception\OspException;
 
 class VipLinkCheckResp {
 
@@ -82,7 +83,7 @@ class VipLinkCheckResp {
 
 						$val0 = null;
 
-						$val0 = new \NiuGengYun\EasyTBK\Vip\Request\VipLinkCheckVO();
+						$val0 = new VipLinkCheckVO();
 						$val0->read($input);
 
 						$this->successMap[$key0] = $val0;
@@ -115,7 +116,7 @@ class VipLinkCheckResp {
 
 						$val1 = null;
 
-						$val1 = new \NiuGengYun\EasyTBK\Vip\Request\VipLinkCheckVO();
+						$val1 = new VipLinkCheckVO();
 						$val1->read($input);
 
 						$this->failMap[$key1] = $val1;
@@ -157,7 +158,7 @@ class VipLinkCheckResp {
 
 			if (!is_array($this->successMap)){
 
-				throw new \NiuGengYun\EasyTBK\Vip\Osp\Exception\OspException('Bad type in structure.', \Osp\Exception\OspException::INVALID_DATA);
+				throw new OspException('Bad type in structure.', \Osp\Exception\OspException::INVALID_DATA);
 			}
 
 			$output->writeMapBegin();
@@ -168,7 +169,7 @@ class VipLinkCheckResp {
 
 				if (!is_object($viter0)) {
 
-					throw new \NiuGengYun\EasyTBK\Vip\Osp\Exception\OspException('Bad type in structure.', \Osp\Exception\OspException::INVALID_DATA);
+					throw new OspException('Bad type in structure.', \Osp\Exception\OspException::INVALID_DATA);
 				}
 
 				$xfer += $viter0->write($output);
@@ -187,7 +188,7 @@ class VipLinkCheckResp {
 
 			if (!is_array($this->failMap)){
 
-				throw new \NiuGengYun\EasyTBK\Vip\Osp\Exception\OspException('Bad type in structure.', \Osp\Exception\OspException::INVALID_DATA);
+				throw new OspException('Bad type in structure.', OspException::INVALID_DATA);
 			}
 
 			$output->writeMapBegin();
@@ -198,7 +199,7 @@ class VipLinkCheckResp {
 
 				if (!is_object($viter0)) {
 
-					throw new \NiuGengYun\EasyTBK\Vip\Osp\Exception\OspException('Bad type in structure.', \Osp\Exception\OspException::INVALID_DATA);
+					throw new OspException('Bad type in structure.', OspException::INVALID_DATA);
 				}
 
 				$xfer += $viter0->write($output);
